@@ -19,6 +19,7 @@ function authenticate(event) {
 
 function onLoginSuccess(request) {
 	loginOverlay.classList.remove("visible");
+	location.reload();
 }
 
 function onLoginError(request) {

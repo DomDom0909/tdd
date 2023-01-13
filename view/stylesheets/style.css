@@ -13,6 +13,10 @@ nav {
 	top: 1em;
 }
 
+td.stock {
+	color: #DE2323;
+}
+
 nav a {
 	text-decoration: none;
 	color: #000000;
